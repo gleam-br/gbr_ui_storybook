@@ -8,7 +8,10 @@
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "gleam build && vite build"
+    "dev": "vite",
+    "build": "vite build",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist",
