@@ -1,0 +1,55 @@
+{
+  "name": "gbr_ui_storybook",
+  "version": "1.0.0",
+  "description": "[![Package Version](https://img.shields.io/hexpm/v/gbr_ui_storybook)](https://hex.pm/packages/gbr_ui_storybook) [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gbr_ui_storybook/)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "module": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "gleam build && vite build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "author": {
+    "name": "@gleam-br",
+    "email": "contato@gleam.dev.br"
+  },
+  "keywords": [
+    "storybook",
+    "gleam",
+    "lustre",
+    "vite-plugin",
+    "javascript"
+  ],
+  "homepage": "https://github.com/salespaulo/gbr_ui_storybook#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salespaulo/gbr_ui_storybook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/salespaulo/gbr_ui_storybook/issues"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "vite": "^8.3.0",
+    "vite-plugin-gleam": "^0.2.0"
+  }
+}
