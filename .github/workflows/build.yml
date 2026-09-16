@@ -15,6 +15,7 @@ jobs:
         with:
           otp-version: "28"
           gleam-version: "1.17"
+      - name: Build project
         run: | 
           gleam deps download
           gleam build
