@@ -8,8 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Update changelog by @github-actions[bot]
 - Novos scripts by @salespaulo
 - Update changelog by @github-actions[bot]
+
+### Fixed
+- Tentando resolver problema em publicar o pacote para o hex by @salespaulo
 
 ## [1.0.1] - 2026-09-16
 
