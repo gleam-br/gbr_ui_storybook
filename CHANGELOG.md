@@ -10,8 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Merge branch 'main' of github.com:salespaulo/gbr_ui_storybook by @salespaulo
 - Update changelog by @github-actions[bot]
+- Merge branch 'main' of github.com:salespaulo/gbr_ui_storybook by @salespaulo
+- Update changelog by @github-actions[bot]
 
 ### Fixed
+- Correção para gerar arquivo index.d.ts em dist by @salespaulo
 - Configurações para realizar o publish no npm by @salespaulo
 
 ## New Contributors
