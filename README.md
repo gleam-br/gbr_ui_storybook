@@ -9,7 +9,7 @@
 ## Como usar?
 
 ```sh
-npm create vite-lustre --overwrite test_gleam_storybook
+npm exec -- create-vite-lustre test_gleam_storybook
 cd test_gleam_storybook
 
 npm install vite-plugin-gleam
