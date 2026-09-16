@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Correção do npm create, melhor utilizar o npm exec -- para passar opções adicionais ao comando de init by @salespaulo
+- Update changelog by @github-actions[bot]
 - Merge branch 'main' of github.com:salespaulo/gbr_ui_storybook by @salespaulo
 - Update changelog by @github-actions[bot]
 - Bump version by @salespaulo
