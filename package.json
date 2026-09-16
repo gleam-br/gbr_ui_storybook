@@ -1,7 +1,7 @@
 {
   "name": "gbr_ui_storybook",
   "version": "1.0.1",
-  "description": "[![Package Version](https://img.shields.io/hexpm/v/gbr_ui_storybook)](https://hex.pm/packages/gbr_ui_storybook) [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gbr_ui_storybook/)",
+  "description": "Gleam UI lustre com o bundler vitejs e storybook.",
   "license": "Apache-2.0",
   "type": "module",
   "module": "./dist/index.js",

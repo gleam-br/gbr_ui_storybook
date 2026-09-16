@@ -11,13 +11,15 @@ import tailwind from "@tailwindcss/vite"
 export default defineConfig({
   plugins: [gleam(), tailwind(), dts({
     // Aponta para a pasta onde os arquivos .d.ts do Gleam
-    include: ['build/dev/javascript/gbr_ui_storybook/**/*'],
+    include: [
+      'build/dev/javascript/gbr_ui_storybook/**/*'
+    ],
     // Evita criar subpastas desnecessárias (ex: dist/build/dev/...)
-    entryRoot: 'build/dev/javascript/gbr_ui_storybook',
+    entryRoot: resolve(import.meta.dirname, 'build/dev/javascript/gbr_ui_storybook'),
   })],
   build: {
     lib: {
-      entry: resolve(import.meta.dirname, 'src', 'index.js'),
+      entry: resolve(import.meta.dirname, 'build/dev/javascript/gbr_ui_storybook/gbr/ui/storybook.mjs'),
       name: 'index',
       formats: ['es', 'umd'],
       fileName: (format) => {

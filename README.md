@@ -1,7 +1,6 @@
 [![Package Version](https://img.shields.io/hexpm/v/gbr_ui_storybook)](https://hex.pm/packages/gbr_ui_storybook)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gbr_ui_storybook/)
 
-
 # 📺 GleamBR UI Storybook library
 
 [Gleam](https://gleam.run/) UI [lustre](https://lustre.build/) com o bundler [vitejs](https://vite.dev) e [storybook](https://storybook.js.org).
@@ -10,9 +9,11 @@
 
 ```sh
 npm exec -- create-vite-lustre test_gleam_storybook
+
 cd test_gleam_storybook
 
 npm install vite-plugin-gleam
+
 npx storybook@latest init --type html --builder vite
 
 gleam add gbr_ui_showcase
@@ -29,10 +30,11 @@ Arquivo `typo_stories.gleam`: Implementação da visualização do componente lu
 ```gleam
 import gleam/dynamic/decode
 
-import gbr/ui/storybook
 import gbr/ui/theme
 import gbr/ui/theme/lustre
 import gbr/ui/theme/lustre/typo
+
+import gbr/ui/storybook
 
 pub fn view() {
   use args <- storybook.render()
